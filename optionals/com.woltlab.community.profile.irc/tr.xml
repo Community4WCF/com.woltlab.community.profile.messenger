@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: tr.xml 1416 2010-05-13 17:58:48Z TobiasH87 $ -->
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="tr">
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.irc"><![CDATA[IRC]]></item>
+		<item name="wcf.user.option.irc.description"><![CDATA[Burada IRC kanal ve ilişkili sunucu (favori) belirtebilirsiniz. Örnek: irc.domain.tld/kanal]]></item>
+	</category>
+    <category name="wcf.user.profile">        
+		<item name="wcf.user.profile.irc.title"><![CDATA[IRC]]></item>
+    </category>
+</language>

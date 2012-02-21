@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: useroptions.xml 1397 2010-05-10 15:03:15Z TobiasH87 $ -->
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/useroptions.xsd">
+	<import>
+		<categories>
+			<category name="profile.messenger">
+				<parent>profile</parent>
+				<!-- <icon>icon/userProfileMessengerM.png</icon> -->
+			</category>
+		</categories>
+		
+		<options>
+			<option name="icq">
+				<categoryname>profile.messenger</categoryname>
+				<outputclass>UserOptionOutputICQ</outputclass>
+				<optiontype>text</optiontype>
+				<showorder>1</showorder>
+				<editable>0</editable>
+				<visible>0</visible>
+				<searchable>1</searchable>
+			</option>
+			<option name="aim">
+				<categoryname>profile.messenger</categoryname>
+				<outputclass>UserOptionOutputAIM</outputclass>
+				<optiontype>text</optiontype>
+				<showorder>2</showorder>
+				<editable>0</editable>
+				<visible>0</visible>
+				<searchable>1</searchable>
+			</option>
+			<option name="yim">
+				<categoryname>profile.messenger</categoryname>
+				<outputclass>UserOptionOutputYIM</outputclass>
+				<optiontype>text</optiontype>
+				<showorder>3</showorder>
+				<editable>0</editable>
+				<visible>0</visible>
+				<searchable>1</searchable>
+			</option>
+			<option name="msn">
+				<categoryname>profile.messenger</categoryname>
+				<outputclass>UserOptionOutputMSN</outputclass>
+				<optiontype>text</optiontype>
+				<showorder>4</showorder>
+				<editable>0</editable>
+				<visible>0</visible>
+				<searchable>1</searchable>
+			</option>
+			<option name="skype">
+				<categoryname>profile.messenger</categoryname>
+				<outputclass>UserOptionOutputSkype</outputclass>
+				<optiontype>text</optiontype>
+				<showorder>5</showorder>
+				<editable>0</editable>
+				<visible>0</visible>  
+				<searchable>1</searchable>
+			</option>
+			<option name="jabber">
+				<categoryname>profile.messenger</categoryname>
+				<outputclass>UserOptionOutputJabber</outputclass>
+				<optiontype>text</optiontype>
+				<showorder>6</showorder>
+				<editable>0</editable>
+				<visible>0</visible>
+				<searchable>1</searchable>       
+			</option>
+		</options>
+	</import>
+</data>

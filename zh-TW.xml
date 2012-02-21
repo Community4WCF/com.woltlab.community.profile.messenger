@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: zh-TW.xml 1398 2010-05-10 15:22:26Z TobiasH87 $ -->
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="zh-TW">
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.category.profile.messenger"><![CDATA[即時消息]]></item>
+		<item name="wcf.user.option.aim"><![CDATA[AIM]]></item>
+		<item name="wcf.user.option.aim.description"><![CDATA[您的AIM帳號]]></item>
+		<item name="wcf.user.option.icq"><![CDATA[ICQ]]></item>
+		<item name="wcf.user.option.icq.description"><![CDATA[您的ICQ號碼]]></item>
+		<item name="wcf.user.option.msn"><![CDATA[MSN]]></item>
+		<item name="wcf.user.option.msn.description"><![CDATA[您的MSN帳戶]]></item>
+		<item name="wcf.user.option.skype"><![CDATA[Skype]]></item>
+		<item name="wcf.user.option.skype.description"><![CDATA[您的Skype用戶名]]></item>
+		<item name="wcf.user.option.yim"><![CDATA[雅虎通(YIM)]]></item>
+		<item name="wcf.user.option.yim.description"><![CDATA[YIM 用戶名]]></item>
+		<item name="wcf.user.option.jabber"><![CDATA[Jabber]]></item>
+		<item name="wcf.user.option.jabber.description"><![CDATA[的名稱，你的Jabber帳戶]]></item>
+	</category>
+	<category name="wcf.user.profile">
+		<item name="wcf.user.profile.aim.title"><![CDATA[AOL即時消息（AIM）]]></item>
+		<item name="wcf.user.profile.icq.title"><![CDATA[ICQ]]></item>
+		<item name="wcf.user.profile.msn.title"><![CDATA[Windows Live Messenger (MSN)]]></item>
+		<item name="wcf.user.profile.skype.title"><![CDATA[Skype]]></item>
+		<item name="wcf.user.profile.yim.title"><![CDATA[雅虎！即時信使（YIM）]]></item>
+		<item name="wcf.user.profile.jabber.title"><![CDATA[Jabber]]></item>
+	</category>
+</language>

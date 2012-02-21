@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: zh-CN.xml 1400 2010-05-10 19:19:56Z TobiasH87 $ -->
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="zh-CN">
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.xfire"><![CDATA[XFIRE]]></item>
+		<item name="wcf.user.option.xfire.description"><![CDATA[XFIRE的输入他们的真实配置文件名称，而不是你的昵称！]]></item>
+	</category>
+    <category name="wcf.user.profile">        
+		<item name="wcf.user.profile.xfire.title"><![CDATA[XFIRE]]></item>
+    </category>
+</language>

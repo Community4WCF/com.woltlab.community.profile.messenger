@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: da.xml 1352 2010-05-02 18:46:00Z TobiasH87 $ -->
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="da">
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.xfire"><![CDATA[XFIRE]]></item>
+		<item name="wcf.user.option.xfire.description"><![CDATA[Indtaste deres rigtige XFIRE profil navn, ikke dit brugernavn!]]></item>
+	</category>
+    <category name="wcf.user.profile">        
+		<item name="wcf.user.profile.xfire.title"><![CDATA[XFIRE profil af dette medlems profil]]></item>
+    </category>
+</language>

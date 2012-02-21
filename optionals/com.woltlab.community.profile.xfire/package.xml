@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: package.xml 1824 2011-08-28 14:07:15Z TobiasH87 $ -->
+<package name="com.woltlab.community.profile.xfire" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/package.xsd">
+	<packageinformation>
+		<packagename><![CDATA[Messenger Profile Field XFIRE]]></packagename>
+		<packagename language="de"><![CDATA[Messenger Profilfeld XFIRE]]></packagename>
+		<packagename language="de-informal"><![CDATA[Messenger Profilfeld XFIRE]]></packagename>
+		<packagedescription><![CDATA[This plugin adds a XFIRE profile field.]]></packagedescription>
+		<packagedescription language="de"><![CDATA[Dieses Plugin fügt ein XFIRE Profilfeld hinzu.]]></packagedescription>
+		<packagedescription language="de-informal"><![CDATA[Dieses Plugin fügt ein XFIRE Profilfeld hinzu.]]></packagedescription>
+		<version>1.0.0 pl 1</version> <!-- codename: Instant Messenger XFIRE -->
+		<packageurl><![CDATA[http://www.wbbaddons.de/]]></packageurl>
+		<date>2010-01-10</date>
+		<isunique>1</isunique>
+		<standalone>0</standalone>
+		<plugin>com.woltlab.wcf.page.user.profile</plugin>
+	</packageinformation>
+	
+	<licenseinformation>
+		<license><![CDATA[LGPL]]></license>
+		<licenseURL><![CDATA[http://www.gnu.org/licenses/lgpl.html]]></licenseURL>
+	</licenseinformation>
+	<authorinformation>
+		<author><![CDATA[WoltLab Community (Sani9000, TobiasH)]]></author>
+		<authorURL><![CDATA[https://www.woltlab.com/forum/index.php?page=User&userID=1331470]]></authorURL>
+	</authorinformation>
+	
+	<requiredpackages>
+		<!-- User Profile Page -->
+		<requiredpackage minversion="1.1.2">com.woltlab.wcf.page.user.profile</requiredpackage>
+		<!-- plugin -->
+		<!-- <requiredpackage minversion="1.1.0">com.woltlab.community.profile.messenger</requiredpackage> -->
+	</requiredpackages>
+	
+	<instructions type="install">
+		<!-- files -->
+		<files>files.tar</files>
+		<!-- config -->
+		<useroptions>useroptions.xml</useroptions>
+		<!-- languages -->
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+		<languages languagecode="da">da.xml</languages>
+		<languages languagecode="es">es.xml</languages>
+		<languages languagecode="fr">fr.xml</languages>
+		<languages languagecode="hr">hr.xml</languages>
+		<languages languagecode="it">it.xml</languages>
+		<languages languagecode="pt-BR">pt-BR.xml</languages>
+		<languages languagecode="sv">sv.xml</languages>
+		<languages languagecode="tr">tr.xml</languages>
+		<languages languagecode="zh-CN">zh-CN.xml</languages>
+		<languages languagecode="zh-TW">zh-TW.xml</languages>
+	</instructions>
+	<instructions type="update" fromversion="0.1.*">
+		<!-- files -->
+		<files>files.tar</files>
+	</instructions>
+	<instructions type="update" fromversion="1.0.0 Beta 3">
+		<!-- files -->
+		<files>files.tar</files>
+		<!-- languages -->
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+		<languages languagecode="da">da.xml</languages>
+		<languages languagecode="es">es.xml</languages>
+		<languages languagecode="fr">fr.xml</languages>
+		<languages languagecode="hr">hr.xml</languages>
+		<languages languagecode="it">it.xml</languages>
+		<languages languagecode="pt-BR">pt-BR.xml</languages>
+		<languages languagecode="sv">sv.xml</languages>
+		<languages languagecode="tr">tr.xml</languages>
+		<languages languagecode="zh-CN">zh-CN.xml</languages>
+		<languages languagecode="zh-TW">zh-TW.xml</languages>
+	</instructions>
+	<instructions type="update" fromversion="1.0.0">
+		<!-- files -->
+		<files>files.tar</files>
+		<!-- languages -->
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+		<languages languagecode="da">da.xml</languages>
+		<languages languagecode="es">es.xml</languages>
+		<languages languagecode="fr">fr.xml</languages>
+		<languages languagecode="hr">hr.xml</languages>
+		<languages languagecode="it">it.xml</languages>
+		<languages languagecode="pt-BR">pt-BR.xml</languages>
+		<languages languagecode="sv">sv.xml</languages>
+		<languages languagecode="tr">tr.xml</languages>
+		<languages languagecode="zh-CN">zh-CN.xml</languages>
+		<languages languagecode="zh-TW">zh-TW.xml</languages>
+	</instructions>
+	<!--
+	<instructions type="update" fromversion="1.0.0 pl 1">
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+		<languages languagecode="da">da.xml</languages>
+		<languages languagecode="es">es.xml</languages>
+		<languages languagecode="fr">fr.xml</languages>
+		<languages languagecode="hr">hr.xml</languages>
+		<languages languagecode="it">it.xml</languages>
+		<languages languagecode="pt-BR">pt-BR.xml</languages>
+		<languages languagecode="sv">sv.xml</languages>
+		<languages languagecode="tr">tr.xml</languages>
+		<languages languagecode="zh-CN">zh-CN.xml</languages>
+		<languages languagecode="zh-TW">zh-TW.xml</languages>
+	</instructions>
+	-->
+</package>

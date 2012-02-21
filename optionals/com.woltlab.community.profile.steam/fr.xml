@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: fr.xml 1400 2010-05-10 19:19:56Z TobiasH87 $ -->
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="fr">
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.steam"><![CDATA[STEAM]]></item>
+		<item name="wcf.user.option.steam.description"><![CDATA[S'il vous plaît entrer votre numéro d'identification du profil ou le contenu de la case "URL personnalisée" les paramètres du profil de steam.]]></item>
+	</category>
+    <category name="wcf.user.profile">        
+		<item name="wcf.user.profile.steam.title"><![CDATA[STEAM XFIRE du profil de ce membre]]></item>
+    </category>
+</language>

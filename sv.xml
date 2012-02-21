@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: sv.xml 1397 2010-05-10 15:03:15Z TobiasH87 $ -->
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="sv">
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.category.profile.messenger"><![CDATA[Direkt Meddelande]]></item>
+		<item name="wcf.user.option.aim"><![CDATA[AOL Instant Messenger (AIM)]]></item>
+		<item name="wcf.user.option.aim.description"><![CDATA[Namnet på ditt AIM-konto]]></item>
+		<item name="wcf.user.option.icq"><![CDATA[ICQ]]></item>
+		<item name="wcf.user.option.icq.description"><![CDATA[Nummer till ditt ICQ-konto]]></item>
+		<item name="wcf.user.option.msn"><![CDATA[Windows Live Messenger]]></item>
+		<item name="wcf.user.option.msn.description"><![CDATA[Namnet på ditt Windows Live Messenger-konto]]></item>
+		<item name="wcf.user.option.skype"><![CDATA[Skype]]></item>
+		<item name="wcf.user.option.skype.description"><![CDATA[Ditt Skype-namn]]></item>
+		<item name="wcf.user.option.yim"><![CDATA[Yahoo! Instant Messenger (YIM)]]></item>
+		<item name="wcf.user.option.yim.description"><![CDATA[Namnet på ditt YIM konto]]></item>
+		<item name="wcf.user.option.jabber"><![CDATA[Jabber]]></item>
+		<item name="wcf.user.option.jabber.description"><![CDATA[Namnet på din Jabber-konton]]></item>
+	</category>
+	<category name="wcf.user.profile">
+		<item name="wcf.user.profile.aim.title"><![CDATA[AOL Instant Messenger (AIM)]]></item>
+		<item name="wcf.user.profile.icq.title"><![CDATA[ICQ]]></item>
+		<item name="wcf.user.profile.msn.title"><![CDATA[Windows Live Messenger (MSN)]]></item>
+		<item name="wcf.user.profile.skype.title"><![CDATA[Skype]]></item>
+		<item name="wcf.user.profile.yim.title"><![CDATA[Yahoo! Instant Messenger (YIM)]]></item>
+		<item name="wcf.user.profile.jabber.title"><![CDATA[Jabber]]></item>
+	</category>
+</language>
