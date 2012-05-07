@@ -14,7 +14,7 @@
 		<item name="wcf.user.option.yim"><![CDATA[Yahoo! Instant Messenger (YIM)]]></item>
 		<item name="wcf.user.option.yim.description"><![CDATA[The name of your YIM account]]></item>
 		<item name="wcf.user.option.jabber"><![CDATA[Jabber]]></item>
-		<item name="wcf.user.option.jabber.description"><![CDATA[The name of your Jabber account]]></item>
+		<item name="wcf.user.option.jabber.description"><![CDATA[The address of your Jabber account]]></item>
 	</category>
 	<category name="wcf.user.profile">
 		<item name="wcf.user.profile.aim.title"><![CDATA[&quot;{$username}&quot; on AOL Instant Messenger (AIM) Contact List]]></item>
